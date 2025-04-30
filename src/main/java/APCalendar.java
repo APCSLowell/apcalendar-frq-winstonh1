@@ -59,6 +59,6 @@ public class APCalendar
   {
     int count = firstDayOfYear(year);
     count += dayOfYear(month,day,year);
-    return 7%count;
+    return count%7;
   }
 }
